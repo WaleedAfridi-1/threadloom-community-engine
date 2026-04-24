@@ -2,6 +2,7 @@
 
 A modern, high-performance community discussion platform built with the **Next.js App Router**, **Prisma ORM**, and **PostgreSQL**.
 
+🚀 **Live Demo**: [ThreadLoom](https://threadloom-community-engine-fqun.vercel.app/)
 ## 🌟 Features
 * **Topic Discovery:** Create and explore dedicated areas for specific subjects.
 * **Nested Discussions:** Post-based architecture within topics to keep conversations organized.
