@@ -8,7 +8,6 @@ import { prisma } from '@/lib/prisma';
 export default async function Home() {
 
   const topics = await FetchTopics();
-  await prisma.topic.deleteMany()
   if (topics.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center min-h-[80vh] w-full text-center p-5">
