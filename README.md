@@ -33,11 +33,9 @@ npm install
 ### 3. Environment Setup
 Create a .env file in the root directory and add your PostgreSQL connection string:
 ```bash
-<<<<<<< HEAD
-DATABASE_URL="postgresql://johndoe:mypassword@localhost:5432/mydb?schema=public"
-=======
+
 DATABASE_URL="postgresql://username:mypassword@localhost:5432/mydb?schema=public"
->>>>>>> f6a6fdcf08a09ffb6726fac1ee94dc04ec398e07
+
 ```
 
 ### 4. Database Migration
